@@ -1,0 +1,14 @@
+# Target labels
+ packageproject.cmake-populate
+# Source files and their labels
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate-complete.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-build.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-configure.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-download.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-install.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-mkdir.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-patch.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-test.rule
+C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-update.rule

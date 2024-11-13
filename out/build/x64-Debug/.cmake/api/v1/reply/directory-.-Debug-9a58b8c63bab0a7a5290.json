@@ -1,0 +1,132 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"packageProject"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/packageproject.cmake-src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 164,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Coding-samples_Development",
+			"destination" : "include/Coding-samples-1.0",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Debug/PackageProjectInclude",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Coding-samples_Development",
+			"destination" : "lib/Coding-samples-1.0",
+			"paths" : 
+			[
+				"Coding-samples.lib"
+			],
+			"targetId" : "Coding-samples::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Coding-samples_Development",
+			"destination" : "lib/cmake/Coding-samples-1.0",
+			"exportName" : "Coding-samplesTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Coding-samples::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/a6ca68fade3d837b442f03693903b51f/Coding-samplesTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Coding-samples_Development",
+			"destination" : "lib/cmake/Coding-samples-1.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/Coding-samplesConfigVersion.cmake",
+				"out/build/x64-Debug/Coding-samplesConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Coding-samples_Development",
+			"destination" : "include/Coding-samples-1.0",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

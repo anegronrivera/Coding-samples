@@ -1,5 +1,5 @@
-#include <greeter/greeter.h>
-#include <greeter/version.h>
+#include <coding-samples/beam.h>
+#include <coding-samples/version.h>
 
 #include <cxxopts.hpp>
 #include <iostream>
@@ -7,11 +7,10 @@
 #include <unordered_map>
 
 auto main(int argc, char** argv) -> int {
-  const std::unordered_map<std::string, greeter::LanguageCode> languages{
-      {"en", greeter::LanguageCode::EN},
-      {"de", greeter::LanguageCode::DE},
-      {"es", greeter::LanguageCode::ES},
-      {"fr", greeter::LanguageCode::FR},
+  const std::unordered_map<std::string, beam::BeamType> beams{
+      {"Photon Beam", beam::BeamType::PHOTON},
+      {"Electron Beam", beam::BeamType::ELECTRON},
+      {"Proton Beam", beam::BeamType::PROTON}
   };
 
   cxxopts::Options options(*argv, "A program to welcome the world!");
@@ -36,18 +35,18 @@ auto main(int argc, char** argv) -> int {
   }
 
   if (result["version"].as<bool>()) {
-    std::cout << "Greeter, version " << GREETER_VERSION << std::endl;
+    std::cout << "Beam, version " << BEAM_VERSION << std::endl;
     return 0;
   }
 
-  auto langIt = languages.find(language);
-  if (langIt == languages.end()) {
-    std::cerr << "unknown language code: " << language << std::endl;
+  auto langIt = beams.find(language);
+  if (langIt == beams.end()) {
+    std::cerr << "unknown beam type: " << language << std::endl;
     return 1;
   }
 
-  greeter::Greeter greeter(name);
-  std::cout << greeter.greet(langIt->second) << std::endl;
+  beam::Beam beam1("name", beam::BeamType::PROTON);
+  std::cout << beam1.printBeam(langIt->second) << std::endl;
 
   return 0;
 }
