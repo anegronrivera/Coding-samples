@@ -149,7 +149,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Coding-samples
+CMAKE_PROJECT_NAME:STATIC=Coding
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -273,6 +273,18 @@ Coding-samples_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Coding-samples_SOURCE_DIR:STATIC=C:/Users/Alfredo/source/repos/Git/Coding-samples
+
+//Value Computed by CMake
+Coding_BINARY_DIR:STATIC=C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug
+
+//CMake package config location relative to the install prefix
+Coding_INSTALL_CMAKEDIR:PATH=lib/cmake/Coding-1.0
+
+//Value Computed by CMake
+Coding_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Coding_SOURCE_DIR:STATIC=C:/Users/Alfredo/source/repos/Git/Coding-samples
 
 //Directory under which to collect all populated content
 FETCHCONTENT_BASE_DIR:PATH=C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps
@@ -536,6 +548,9 @@ CPM_VERSION:INTERNAL=0.40.2
 //ADVANCED property for variable: Coding-samples_INSTALL_CMAKEDIR
 Coding-samples_INSTALL_CMAKEDIR-ADVANCED:INTERNAL=1
 Coding-samples_VERSION:INTERNAL=1.0
+//ADVANCED property for variable: Coding_INSTALL_CMAKEDIR
+Coding_INSTALL_CMAKEDIR-ADVANCED:INTERNAL=1
+Coding_VERSION:INTERNAL=1.0
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //The path to the PackageProject directory

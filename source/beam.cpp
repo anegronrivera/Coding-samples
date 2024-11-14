@@ -1,4 +1,4 @@
-#include <coding-samples/beam.h>
+#include <coding/beam.h>
 
 using namespace beam;
 
@@ -7,7 +7,7 @@ void Beam::setLength(double newLength)
     length = newLength;
 }
 
-std::string Beam::printBeam() const 
+std::string const Beam::printBeam() 
 {
   switch (type) 
   {

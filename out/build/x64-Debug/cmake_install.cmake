@@ -37,24 +37,24 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/_deps/fmt-build/cmake_install.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding-samples_Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Coding-samples-1.0" TYPE DIRECTORY FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/PackageProjectInclude/")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding_Development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Coding-1.0" TYPE DIRECTORY FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/PackageProjectInclude/")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding-samples_Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Coding-samples-1.0" TYPE STATIC_LIBRARY FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/Coding-samples.lib")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding_Development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Coding-1.0" TYPE STATIC_LIBRARY FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/Coding.lib")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding-samples_Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0/Coding-samplesTargets.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding_Development" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0/CodingTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
-         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0/Coding-samplesTargets.cmake"
-         "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/Export/a6ca68fade3d837b442f03693903b51f/Coding-samplesTargets.cmake")
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0/CodingTargets.cmake"
+         "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/Export/94d55606814f7b3cd975ec3a905d112d/CodingTargets.cmake")
     if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0/Coding-samplesTargets-*.cmake")
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0/CodingTargets-*.cmake")
       if(_cmake_old_config_files)
         string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0/Coding-samplesTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0/CodingTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
         unset(_cmake_old_config_files_text)
         file(REMOVE ${_cmake_old_config_files})
       endif()
@@ -62,21 +62,21 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding-samples_Development" OR NOT CMAKE_IN
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0" TYPE FILE FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/Export/a6ca68fade3d837b442f03693903b51f/Coding-samplesTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0" TYPE FILE FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/Export/94d55606814f7b3cd975ec3a905d112d/CodingTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0" TYPE FILE FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/Export/a6ca68fade3d837b442f03693903b51f/Coding-samplesTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0" TYPE FILE FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/Export/94d55606814f7b3cd975ec3a905d112d/CodingTargets-debug.cmake")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding-samples_Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-samples-1.0" TYPE FILE FILES
-    "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/Coding-samplesConfigVersion.cmake"
-    "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/Coding-samplesConfig.cmake"
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding_Development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Coding-1.0" TYPE FILE FILES
+    "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CodingConfigVersion.cmake"
+    "C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CodingConfig.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding-samples_Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Coding-samples-1.0" TYPE DIRECTORY FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/include/")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Coding_Development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Coding-1.0" TYPE DIRECTORY FILES "C:/Users/Alfredo/source/repos/Git/Coding-samples/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

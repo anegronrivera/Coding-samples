@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14...3.22)
 
-project(Coding-samplesTests LANGUAGES CXX)
+project(CodingTests LANGUAGES CXX)
 
 # ---- Options ----
 
@@ -19,29 +19,29 @@ CPMAddPackage("gh:doctest/doctest@2.4.9")
 CPMAddPackage("gh:TheLartians/Format.cmake@1.7.3")
 
 if(TEST_INSTALLED_VERSION)
-  find_package(Coding-samples REQUIRED)
+  find_package(Coding REQUIRED)
 else()
-  CPMAddPackage(NAME Coding-samples SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
+  CPMAddPackage(NAME Coding SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
 endif()
 
 # ---- Create binary ----
 
 file(GLOB sources CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
 add_executable(${PROJECT_NAME} ${sources})
-target_link_libraries(${PROJECT_NAME} doctest::doctest Coding-samples::Coding-samples)
+target_link_libraries(${PROJECT_NAME} doctest::doctest Coding::Coding)
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17)
 
 # enable compiler warnings
 if(NOT TEST_INSTALLED_VERSION)
   if(CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR CMAKE_CXX_COMPILER_ID MATCHES "GNU")
-    target_compile_options(Coding-samples PUBLIC -Wall -Wpedantic -Wextra -Werror)
+    target_compile_options(Coding PUBLIC -Wall -Wpedantic -Wextra -Werror)
   elseif(MSVC)
-    target_compile_options(Coding-samples PUBLIC /W4 /WX)
+    target_compile_options(Coding PUBLIC /W4 /WX)
     target_compile_definitions(${PROJECT_NAME} PUBLIC DOCTEST_CONFIG_USE_STD_HEADERS)
   endif()
 endif()
 
-# ---- Add Coding-samplesTests ----
+# ---- Add CodingTests ----
 
 enable_testing()
 
@@ -55,6 +55,6 @@ doctest_discover_tests(${PROJECT_NAME})
 # ---- code coverage ----
 
 if(ENABLE_TEST_COVERAGE)
-  target_compile_options(Coding-samples PUBLIC -O0 -g -fprofile-arcs -ftest-coverage)
-  target_link_options(Coding-samples PUBLIC -fprofile-arcs -ftest-coverage)
+  target_compile_options(Coding PUBLIC -O0 -g -fprofile-arcs -ftest-coverage)
+  target_link_options(Coding PUBLIC -fprofile-arcs -ftest-coverage)
 endif()

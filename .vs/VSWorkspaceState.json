@@ -7,17 +7,13 @@
   },
   "ExpandedNodes": [
     "",
-    "\\documentation",
-    "\\documentation\\pages",
     "\\include",
-    "\\include\\coding-samples",
+    "\\include\\coding",
     "\\out",
     "\\out\\build",
+    "\\source",
     "\\standalone",
-    "\\standalone\\source",
-    "\\test",
-    "\\test\\source"
+    "\\standalone\\source"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }

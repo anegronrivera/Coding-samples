@@ -5,7 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # headers at CMakeLists.txt:39 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Alfredo/source/repos/Git/Coding-samples/include/*.h")
 set(OLD_GLOB
-  "C:/Users/Alfredo/source/repos/Git/Coding-samples/include/coding-samples/beam.h"
+  "C:/Users/Alfredo/source/repos/Git/Coding-samples/include/coding/beam.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

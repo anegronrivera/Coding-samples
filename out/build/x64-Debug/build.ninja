@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Coding-samples
+# Project: Coding
 # Configurations: Debug
 # =============================================================================
 
@@ -41,39 +41,39 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\Alfredo\source\repos\Git\Coding-samples\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target Coding-samples
+# Object build statements for STATIC_LIBRARY target Coding
 
 
 #############################################
-# Order-only phony target for Coding-samples
+# Order-only phony target for Coding
 
-build cmake_object_order_depends_target_Coding-samples: phony || cmake_object_order_depends_target_fmt
+build cmake_object_order_depends_target_Coding: phony || cmake_object_order_depends_target_fmt
 
-build CMakeFiles\Coding-samples.dir\source\beam.cpp.obj: CXX_COMPILER__Coding-samples_unscanned_Debug C$:\Users\Alfredo\source\repos\Git\Coding-samples\source\beam.cpp || cmake_object_order_depends_target_Coding-samples
+build CMakeFiles\Coding.dir\source\beam.cpp.obj: CXX_COMPILER__Coding_unscanned_Debug C$:\Users\Alfredo\source\repos\Git\Coding-samples\source\beam.cpp || cmake_object_order_depends_target_Coding
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /permissive-
   INCLUDES = -IC:\Users\Alfredo\source\repos\Git\Coding-samples\include -IC:\Users\Alfredo\source\repos\Git\Coding-samples\out\build\x64-Debug\PackageProjectInclude -IC:\Users\Alfredo\source\repos\Git\Coding-samples\out\build\x64-Debug\_deps\fmt-src\include
-  OBJECT_DIR = CMakeFiles\Coding-samples.dir
-  OBJECT_FILE_DIR = CMakeFiles\Coding-samples.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\Coding-samples.dir\Coding-samples.pdb
-  TARGET_PDB = Coding-samples.pdb
+  OBJECT_DIR = CMakeFiles\Coding.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coding.dir\source
+  TARGET_COMPILE_PDB = CMakeFiles\Coding.dir\Coding.pdb
+  TARGET_PDB = Coding.pdb
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target Coding-samples
+# Link build statements for STATIC_LIBRARY target Coding
 
 
 #############################################
-# Link the static library Coding-samples.lib
+# Link the static library Coding.lib
 
-build Coding-samples.lib: CXX_STATIC_LIBRARY_LINKER__Coding-samples_Debug CMakeFiles\Coding-samples.dir\source\beam.cpp.obj || _deps\fmt-build\fmtd.lib
+build Coding.lib: CXX_STATIC_LIBRARY_LINKER__Coding_Debug CMakeFiles\Coding.dir\source\beam.cpp.obj || _deps\fmt-build\fmtd.lib
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64
-  OBJECT_DIR = CMakeFiles\Coding-samples.dir
+  OBJECT_DIR = CMakeFiles\Coding.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Coding-samples.dir\Coding-samples.pdb
-  TARGET_FILE = Coding-samples.lib
-  TARGET_PDB = Coding-samples.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\Coding.dir\Coding.pdb
+  TARGET_FILE = Coding.lib
+  TARGET_PDB = Coding.pdb
 
 
 #############################################
@@ -290,7 +290,7 @@ build _deps\fmt-build\install\local: phony _deps\fmt-build\CMakeFiles\install\lo
 # =============================================================================
 # Target aliases.
 
-build Coding-samples: phony Coding-samples.lib
+build Coding: phony Coding.lib
 
 build fmt: phony _deps\fmt-build\fmtd.lib
 
@@ -304,7 +304,7 @@ build fmtd.lib: phony _deps\fmt-build\fmtd.lib
 #############################################
 # Folder: C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug
 
-build all: phony Coding-samples.lib _deps\fmt-build\all
+build all: phony Coding.lib _deps\fmt-build\all
 
 # =============================================================================
 

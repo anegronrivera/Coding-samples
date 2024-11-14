@@ -1,19 +1,19 @@
 cmake_minimum_required(VERSION 3.14...3.22)
 
-project(Coding-samplesDocs)
+project(CodingDocs)
 
 # ---- Dependencies ----
 
 include(../cmake/CPM.cmake)
 
 CPMAddPackage("gh:mosra/m.css#a0d292ec311b97fefd21e93cdefb60f88d19ede6")
-CPMAddPackage(NAME Coding-samples SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
+CPMAddPackage(NAME Coding SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
 
 # ---- Doxygen variables ----
 
 # set Doxyfile variables
-set(DOXYGEN_PROJECT_NAME Coding-samples)
-set(DOXYGEN_PROJECT_VERSION ${Coding-samples_VERSION})
+set(DOXYGEN_PROJECT_NAME Coding)
+set(DOXYGEN_PROJECT_VERSION ${Coding_VERSION})
 set(DOXYGEN_PROJECT_ROOT "${CMAKE_CURRENT_LIST_DIR}/..")
 set(DOXYGEN_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/doxygen")
 

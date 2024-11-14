@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.14...3.22)
 # ---- Project ----
 
 project(
-  Coding-samples
+  Coding
   VERSION 1.0
   LANGUAGES CXX
 )

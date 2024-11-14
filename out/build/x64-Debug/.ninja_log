@@ -1,0 +1,11 @@
+# ninja log v6
+39	715	7532512134477182	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	9ce05e9d34a98f06
+3	23	7532545865058502	C:/Users/Alfredo/source/repos/Git/Coding-samples/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	24f4ec1b51438725
+496	569	7532533328428827	Coding-samples.lib	7b028845b7bf387f
+35	900	7532512134438934	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	76868966efbcabd6
+26	141	7532517299427617	_deps/fmt-build/fmtd.lib	58cfa3753fceaa1f
+23	495	7532533323713711	CMakeFiles/Coding-samples.dir/source/beam.cpp.obj	55d67920f0171f22
+24	130	7532525633411177	CMakeFiles/install.util	5ddd9ddf1244fe42
+26	2096	7532908303083893	build.ninja	4e0ea84e1c4f2c08
+24	209	7532545865267801	CMakeFiles/Coding.dir/source/beam.cpp.obj	a9eb47806bfe15eb
+210	283	7532545867127191	Coding.lib	db74dea0e3707a64
